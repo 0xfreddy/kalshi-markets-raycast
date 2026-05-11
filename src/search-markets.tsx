@@ -805,14 +805,6 @@ function categoryColor(category?: string): Color {
   return Color.SecondaryText;
 }
 
-function formatPercent(value: number): string {
-  if (!Number.isFinite(value)) {
-    return "-";
-  }
-
-  return `${(value * 100).toFixed(value > 0 && value < 0.1 ? 1 : 0)}%`;
-}
-
 function orderFilters(
   favoriteFilters: string[],
   favoriteTopics: string[],
