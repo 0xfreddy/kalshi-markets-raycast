@@ -9,18 +9,19 @@
 
 type ExtensionPreferences = {
   /** Favorite Topics - Comma-separated topics or teams to show first, for example Sports, NBA, Lakers. */
-  favoriteTopics?: string;
-};
+  "favoriteTopics"?: string
+}
 
 /** Preferences accessible in all the extension's commands */
-declare type Preferences = ExtensionPreferences;
+declare type Preferences = ExtensionPreferences
 
 declare namespace Preferences {
   /** Preferences accessible in the `search-markets` command */
-  export type SearchMarkets = ExtensionPreferences & {};
+  export type SearchMarkets = ExtensionPreferences & {}
 }
 
 declare namespace Arguments {
   /** Arguments passed to the `search-markets` command */
-  export type SearchMarkets = {};
+  export type SearchMarkets = {}
 }
+
