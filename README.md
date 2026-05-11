@@ -2,7 +2,7 @@
 
 Browse public Kalshi prediction markets from Raycast. Search active, inactive, and resolved markets; compare option prices; review market charts and rules; and open the corresponding Kalshi page in your browser.
 
-![Kalshi Markets screenshot](metadata/kalshi-markets.png)
+![Kalshi Markets screenshot](metadata/kalshi-markets1.png)
 
 ## Features
 
