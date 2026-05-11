@@ -42,11 +42,10 @@ import {
   marketsForSeries,
   rankSeries,
 } from "./lib/kalshi";
-import type { KalshiMarket, MarketStatus } from "./types/kalshi";
+import type { KalshiMarket } from "./types/kalshi";
 
 type Preferences = {
   favoriteTopics?: string;
-  defaultStatus: MarketStatus;
 };
 
 export default function Command() {

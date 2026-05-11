@@ -38,28 +38,6 @@
       "description": "Comma-separated topics or teams to show first, for example Sports, NBA, Lakers.",
       "type": "textfield",
       "required": false
-    },
-    {
-      "name": "defaultStatus",
-      "title": "Default Market Status",
-      "description": "Market status used when loading markets.",
-      "type": "dropdown",
-      "required": true,
-      "default": "open",
-      "data": [
-        {
-          "title": "Open",
-          "value": "open"
-        },
-        {
-          "title": "Closed",
-          "value": "closed"
-        },
-        {
-          "title": "Settled",
-          "value": "settled"
-        }
-      ]
     }
   ],
   "dependencies": {
